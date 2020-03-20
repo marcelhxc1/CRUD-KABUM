@@ -7,7 +7,7 @@ include './includes/nav.php';
 
     <div class="container titulo">
         <div class="row">
-            <h1 class="text-center titulo"> Faça Login para abrir cadastrar o seu cliente</h1>
+            <h1 class="text-center titulo"> Faça Login para cadastrar o seu cliente</h1>
         </div>    
     </div>
     <div class="container">
