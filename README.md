@@ -55,3 +55,7 @@ Arquivo sql do banco está no projeto.
 ## 5 - MYSQL ##
 
 
+## Acesso ##
+
+Login : marcel@teste.com
+Senha : 123456
