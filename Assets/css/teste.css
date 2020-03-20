@@ -1,0 +1,49 @@
+.titulo{
+    margin: 0 auto;
+    margin-top: 2%;
+    margin-bottom: 20px;
+}
+.formu{
+    margin: 0 auto;
+    margin-left: 440px;
+}
+
+.formu2{
+    margin:0 auto;
+    margin-top: 30px;
+    margin-left: 100px;
+}
+
+.h12{
+    margin-left: 400px;
+    margin-top: 20px;
+}
+
+.coluna{
+    width: 220%;
+
+}
+
+.spaces{
+    margin-bottom: 30px;
+}
+
+.spaces2{
+    margin-top:40px;
+}
+
+.autos{
+    margin: 0 auto;
+    margin-top:25px;
+    margin-bottom: 200px;
+}
+
+.btn-space{
+    margin-top: 15px;
+    margin-bottom: 20px;
+}
+
+.custom{
+    margin-top: 15px;
+    margin-bottom: 20px;
+}
