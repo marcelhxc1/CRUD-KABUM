@@ -42,12 +42,12 @@ include './php/list.php';
                 <td><?= $value['endereco1'] ?></td>
                 <form action="/editar-clientes.php" method="POST">
                     <input type="hidden" name="id" value="<?= $value['id'] ?>" />
-                    <td><button class="tim">Editar
+                    <td><button class="tim btn btn-primary">Editar
                     </button></td>
                 </form>
                 <form action="./php/deletar.php" method="POST">
                     <input type="hidden" name="id" value="<?= $value['id'] ?>" />
-                    <td><button class="tim">Remover
+                    <td><button class="tim btn btn-primary">Remover
                     </button></td>
                 </form>
                 </tr>
