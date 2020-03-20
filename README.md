@@ -8,7 +8,8 @@ Teste de conhecimento PHP
 
 A tela inicial conta com formulario de login e botão para o formulario de cadastro
 
-![image](https://user-images.githubusercontent.com/9875524/76583161-3d645600-64b7-11ea-93be-cd12b9d11486.png)
+![image](https://user-images.githubusercontent.com/9875524/77203402-174e3f80-6acf-11ea-8e3b-78abba03006d.png)
+
 
 ## Criando um usuario ##
 
