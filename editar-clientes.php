@@ -23,31 +23,31 @@ include './php/edite.php';
             <div class="form-row">
               <div class="form-group coluna">
                 <label for="titulo">Nome</label>
-                <input type="text" class="form-control" id="nome" required name="nome" placeholder="Seu nome" value="<?= $clientes[0]['Nome'] ?>">
+                <input type="text" class="form-control" id="nome" name="nome" placeholder="Seu nome" value="<?= $clientes[0]['Nome'] ?>">
               </div>
             </div>
             <div class="form-row">
               <div class="form-group coluna">
                 <label for="descricao">Data de Nascimento</label>
-                <textarea class="form-control coluna" id="datan" rows="3" required name="datan" placeholder="<?= $clientes[0]['Data_de_nascimento'] ?>" value="<?= $clientes[0]['Data_de_nascimento'] ?>"></textarea>
+                <textarea class="form-control coluna" id="datan" rows="3" name="datan" placeholder="<?= $clientes[0]['Data_de_nascimento'] ?>" value="<?= $clientes[0]['Data_de_nascimento'] ?>"></textarea>
               </div>
             </div>
             <div class="form-row">
               <div class="form-group coluna">
                 <label for="descricao">RG</label>
-                <textarea class="form-control coluna" id="rg" rows="3" required name="rg" placeholder="<?= $clientes[0]['Rg'] ?>" value="<?= $clientes[0]['Rg'] ?>"></textarea>
+                <textarea class="form-control coluna" id="rg" rows="3" name="rg" placeholder="<?= $clientes[0]['Rg'] ?>" value="<?= $clientes[0]['Rg'] ?>"></textarea>
               </div>
             </div>
             <div class="form-row">
               <div class="form-group coluna">
                 <label for="descricao">CPF</label>
-                <textarea class="form-control coluna" id="cpf" rows="3" required name="cpf" placeholder="<?= $clientes[0]['Cpf'] ?>" value="<?= $clientes[0]['Cpf'] ?>"></textarea>
+                <textarea class="form-control coluna" id="cpf" rows="3" name="cpf" placeholder="<?= $clientes[0]['Cpf'] ?>" value="<?= $clientes[0]['Cpf'] ?>"></textarea>
               </div>
             </div>
             <div class="form-row">
               <div class="form-group coluna">
                 <label for="descricao">Telefone</label>
-                <textarea class="form-control coluna" id="telefone" rows="3" required name="telefone" placeholder="<?= $clientes[0]['Telefone'] ?>" value="<?= $clientes[0]['Telefone'] ?>"></textarea>
+                <textarea class="form-control coluna" id="telefone" rows="3" name="telefone" placeholder="<?= $clientes[0]['Telefone'] ?>" value="<?= $clientes[0]['Telefone'] ?>"></textarea>
               </div>
             </div>
             <?php 
@@ -56,7 +56,7 @@ include './php/edite.php';
             <div class="form-row container1">
               <div class="form-group coluna">
                 <label for="descricao">Endereços</label>
-                <textarea class="form-control coluna" id="endereco" required name="endereco1" placeholder="<?= $value['endereco1']?>" value="<?= $value['endereco1']?>"></textarea>
+                <textarea class="form-control coluna" id="endereco" name="endereco1" placeholder="<?= $value['endereco1']?>" value="<?= $value['endereco1']?>"></textarea>
               </div>
             </div>
             <?php
@@ -65,7 +65,7 @@ include './php/edite.php';
             <div class="form-row container1">
               <div class="form-group coluna">
                 <label for="descricao">Endereços</label>
-                <textarea class="form-control coluna" id="endereco" required name="endereco2" placeholder="<?= $value['endereco2']?>" value="<?= $value['endereco2']?>"></textarea>
+                <textarea class="form-control coluna" id="endereco" name="endereco2" placeholder="<?= $value['endereco2']?>" value="<?= $value['endereco2']?>"></textarea>
               </div>
             </div>
             <?php endif; ?>
@@ -75,7 +75,7 @@ include './php/edite.php';
             <div class="form-row container1">
               <div class="form-group coluna">
                 <label for="descricao">Endereços</label>
-                <textarea class="form-control coluna" id="endereco" required name="endereco3" placeholder="<?= $value['endereco3']?>" value="<?= $value['endereco3']?>"></textarea>
+                <textarea class="form-control coluna" id="endereco" name="endereco3" placeholder="<?= $value['endereco3']?>" value="<?= $value['endereco3']?>"></textarea>
               </div>
             </div>
             <?php endif; ?>
@@ -85,7 +85,7 @@ include './php/edite.php';
             <div class="form-row container1">
               <div class="form-group coluna">
                 <label for="descricao">Endereços</label>
-                <textarea class="form-control coluna" id="endereco" required name="endereco4" placeholder="<?= $value['endereco4']?>" value="<?= $value['endereco4']?>"></textarea>
+                <textarea class="form-control coluna" id="endereco" name="endereco4" placeholder="<?= $value['endereco4']?>" value="<?= $value['endereco4']?>"></textarea>
               </div>
             </div>
             <?php endif; ?>
@@ -95,7 +95,7 @@ include './php/edite.php';
             <div class="form-row container1">
               <div class="form-group coluna">
                 <label for="descricao">Endereços</label>
-                <textarea class="form-control coluna" id="endereco" required name="endereco5" placeholder="<?= $value['endereco5']?>" value="<?= $value['endereco5']?>"></textarea>
+                <textarea class="form-control coluna" id="endereco" name="endereco5" placeholder="<?= $value['endereco5']?>" value="<?= $value['endereco5']?>"></textarea>
               </div>
             </div>
             <?php endif; ?>
@@ -105,7 +105,7 @@ include './php/edite.php';
             <div class="form-row container1">
               <div class="form-group coluna">
                 <label for="descricao">Endereços</label>
-                <textarea class="form-control coluna" id="endereco" required name="endereco6" placeholder="<?= $value['endereco6']?>"></textarea>
+                <textarea class="form-control coluna" id="endereco" name="endereco6" placeholder="<?= $value['endereco6']?>"></textarea>
               </div>
             </div>
             <?php endif; ?>
@@ -115,7 +115,7 @@ include './php/edite.php';
             <div class="form-row container1">
               <div class="form-group coluna">
                 <label for="descricao">Endereços</label>
-                <textarea class="form-control coluna" id="endereco" required name="endereco7" placeholder="<?= $value['endereco7']?>"></textarea>
+                <textarea class="form-control coluna" id="endereco" name="endereco7" placeholder="<?= $value['endereco7']?>"></textarea>
               </div>
             </div>
             <?php endif; ?>
@@ -125,7 +125,7 @@ include './php/edite.php';
             <div class="form-row container1">
               <div class="form-group coluna">
                 <label for="descricao">Endereços</label>
-                <textarea class="form-control coluna" id="endereco" required name="endereco8" placeholder="<?= $value['endereco8']?>"></textarea>
+                <textarea class="form-control coluna" id="endereco" name="endereco8" placeholder="<?= $value['endereco8']?>"></textarea>
               </div>
             </div>
             <?php endif; ?>
@@ -135,7 +135,7 @@ include './php/edite.php';
             <div class="form-row container1">
               <div class="form-group coluna">
                 <label for="descricao">Endereços</label>
-                <textarea class="form-control coluna" id="endereco" required name="endereco9" placeholder="<?= $value['endereco9']?>"></textarea>
+                <textarea class="form-control coluna" id="endereco" name="endereco9" placeholder="<?= $value['endereco9']?>"></textarea>
               </div>
             </div>
             <?php endif; ?>
